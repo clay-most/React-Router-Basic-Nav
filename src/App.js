@@ -7,11 +7,10 @@ import "./App.css";
 
 const App = () => (
   <div>
-    <Navigation>
+    <Navigation></Navigation>
       <Route exact path="/" component={Home}>Home</Route>
       <Route path="/about" component={About}>About</Route>
       <Route path="/Contact" component={Contact}>Contact</Route>
-    </Navigation>
   </div>
 );
 
